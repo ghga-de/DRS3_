@@ -23,7 +23,7 @@ that need modification and then remove them after your modifications.
 ---
 The following should serve as a template for the final repo's README,
 please adapt accordingly:
-# My-Microservice - A Short Description
+# DRS3 - A GA4GH DRS compliant download controller
 
 A longer description explaining the use case of this service.
 
