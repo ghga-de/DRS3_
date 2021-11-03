@@ -1,4 +1,4 @@
-# Microservice Repository Template
+<!-- # Microservice Repository Template
 
 This repo is a template for creating a new microservice.
 
@@ -22,8 +22,8 @@ Please search for "Please adapt to package" comments to find all locations
 that need modification and then remove them after your modifications.
 ---
 The following should serve as a template for the final repo's README,
-please adapt accordingly:
-# DRS3 - A GA4GH DRS compliant download controller
+please adapt accordingly: -->
+# drs3 - A GA4GH DRS compliant download controller
 
 A longer description explaining the use case of this service.
 
@@ -35,17 +35,17 @@ An extensive documentation can be found [here](...) (coming soon).
 ### Installation
 We recommend using the provided Docker container.
 
-A pre-build version is available at [docker hub](https://hub.docker.com/repository/docker/ghga/my-microservice):
+A pre-build version is available at [docker hub](https://hub.docker.com/repository/docker/ghga/drs3):
 ```bash
 # Please adapt the version as required:
-docker pull ghga/my-microservice:<version>
+docker pull ghga/drs3:<version>
 ```
 
 Or you can build the container yourself from the [`./Dockerfile`](./Dockerfile):
 ```bash
 # Execute in the repo's root dir:
 # (Please feel free to adapt the name/tag.)
-docker build -t ghga/my-microservice:<version> .
+docker build -t ghga/drs3:<version> .
 ```
 
 For production-ready deployment, we recommend using Kubernetes, however,
@@ -53,7 +53,7 @@ for simple use cases, you could execute the service using docker
 on a single server:
 ```bash
 # The entrypoint is preconfigured:
-docker run -p 8080:8080 ghga/my-microservice:<version>
+docker run -p 8080:8080 ghga/drs3:<version>
 ```
 
 If you prefer not to use containers, you may install the service from source:
@@ -62,7 +62,7 @@ If you prefer not to use containers, you may install the service from source:
 pip install .
 
 # to run the service:
-my-microservice
+drs3
 ```
 
 ### Configuration:

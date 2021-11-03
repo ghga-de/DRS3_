@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # adapt to package name
-my-microservice --config /workspace/.devcontainer/dev_config.yaml
+drs3 --config /workspace/.devcontainer/dev_config.yaml
